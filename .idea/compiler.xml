@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="luyue-server-common" />
         <module name="luyue-server-discovery" />
         <module name="luyue-server-entity-domain" />
         <module name="luyue-server-entity-management" />
@@ -16,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="domain" target="1.8" />
+      <module name="luyue-server-common" target="1.8" />
       <module name="luyue-server-discovery" target="1.8" />
       <module name="luyue-server-entity" target="1.8" />
       <module name="luyue-server-entity-domain" target="1.8" />

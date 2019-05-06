@@ -10,6 +10,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>luyue-server-service-management</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.baoyi.luyue</groupId>
+            <artifactId>luyue-server-entity-management</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>11.2.0.1.0</version>
+        </dependency>
+
+    </dependencies>
 
 
 </project>

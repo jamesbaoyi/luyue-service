@@ -3,3 +3,4 @@ spring:
     name: domain-service
   profiles:
     active: @spring.profiles.active@
+    include: swagger

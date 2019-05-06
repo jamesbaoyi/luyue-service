@@ -3,3 +3,4 @@ spring:
     name: management-service
   profiles:
     active: dev
+    include: swagger

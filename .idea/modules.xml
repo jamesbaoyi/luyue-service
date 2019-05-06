@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/luyueserver/common/luyue-server-common.iml" filepath="$PROJECT_DIR$/luyueserver/common/luyue-server-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/luyueserver/discovery/luyue-server-discovery.iml" filepath="$PROJECT_DIR$/luyueserver/discovery/luyue-server-discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/luyueserver/entity/luyue-server-entity.iml" filepath="$PROJECT_DIR$/luyueserver/entity/luyue-server-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/luyueserver/entity/domian/luyue-server-entity-domain.iml" filepath="$PROJECT_DIR$/luyueserver/entity/domian/luyue-server-entity-domain.iml" />

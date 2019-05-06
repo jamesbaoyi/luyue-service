@@ -2,9 +2,9 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/luyueserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/luyueserver/common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/luyueserver/discovery" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/luyueserver/entity" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/luyueserver/entity/domain" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/luyueserver/entity/domian" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/luyueserver/entity/management" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/luyueserver/gateway" charset="UTF-8" />
