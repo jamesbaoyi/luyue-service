@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/luyueserver/discovery/luyue-server-discovery.iml" filepath="$PROJECT_DIR$/luyueserver/discovery/luyue-server-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luyueserver/entity/luyue-server-entity.iml" filepath="$PROJECT_DIR$/luyueserver/entity/luyue-server-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luyueserver/entity/domian/luyue-server-entity-domain.iml" filepath="$PROJECT_DIR$/luyueserver/entity/domian/luyue-server-entity-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luyueserver/entity/management/luyue-server-entity-management.iml" filepath="$PROJECT_DIR$/luyueserver/entity/management/luyue-server-entity-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luyueserver/gateway/luyue-server-gateway.iml" filepath="$PROJECT_DIR$/luyueserver/gateway/luyue-server-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luyueserver/service/luyue-server-service.iml" filepath="$PROJECT_DIR$/luyueserver/service/luyue-server-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luyueserver/service/domain/luyue-server-service-domain.iml" filepath="$PROJECT_DIR$/luyueserver/service/domain/luyue-server-service-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luyueserver/service/mangagement/luyue-server-service-management.iml" filepath="$PROJECT_DIR$/luyueserver/service/mangagement/luyue-server-service-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luyueserver/service/domain/luyue.service.domain.iml" filepath="$PROJECT_DIR$/luyueserver/service/domain/luyue.service.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luyueserver/service/mangagement/luyue.service.mangagement.iml" filepath="$PROJECT_DIR$/luyueserver/service/mangagement/luyue.service.mangagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luyueserver/luyueserver.iml" filepath="$PROJECT_DIR$/luyueserver/luyueserver.iml" />
+    </modules>
+  </component>
+</project>

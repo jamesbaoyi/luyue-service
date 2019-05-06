@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="luyue-server-discovery" />
+        <module name="luyue-server-entity-domain" />
+        <module name="luyue-server-entity-management" />
+        <module name="luyue-server-gateway" />
+        <module name="luyue-server-service-domain" />
+        <module name="luyue-server-service-management" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="domain" target="1.8" />
+      <module name="luyue-server-discovery" target="1.8" />
+      <module name="luyue-server-entity" target="1.8" />
+      <module name="luyue-server-entity-domain" target="1.8" />
+      <module name="luyue-server-entity-management" target="1.8" />
+      <module name="luyue-server-gateway" target="1.8" />
+      <module name="luyue-server-service" target="1.8" />
+      <module name="luyue-server-service-domain" target="1.8" />
+      <module name="luyue-server-service-management" target="1.8" />
+      <module name="luyueserver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
