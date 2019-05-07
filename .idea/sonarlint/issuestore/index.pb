@@ -57,3 +57,15 @@ jluyueserver/service/mangagement/src/main/java/cn/baoyi/luyue/service/management
 gluyueserver/service/mangagement/src/main/java/cn/baoyi/luyue/service/management/web/UserController.java,9\a\9ac8dcdb2ae479b9c23936449330069c899636b3
 †
 Vluyueserver/entity/management/src/main/java/cn/baoyi/luyue/entity/management/User.java,d\4\d45ed714150776460cf3f4ec911ba29a92d5594a
+h
+8luyueserver/entity/domian/luyue-server-entity-domain.iml,2\6\2692149e49ec1c810fc8f9a62bcce982b520def3
+p
+@luyueserver/entity/management/luyue-server-entity-management.iml,5\e\5e63a8bf55608e0328987602fbe31ae6f4068446
+y
+Iluyueserver/service/mangagement/src/main/resources/config/application.yml,5\b\5b4a70350eba537227bebaa12cccb3702204ab98
+y
+Iluyueserver/service/mangagement/target/classes/config/application-dev.yml,d\4\d4f796d21ee8081a49fc075dc418441885539b7b
+u
+Eluyueserver/service/mangagement/target/classes/config/application.yml,7\7\777e8af50b3441d5d6c0a2c9a689656fff97d687
+}
+Mluyueserver/service/mangagement/src/main/resources/config/application-dev.yml,9\d\9d2ee6997308473e409ebbbe77ca8d9118407fb1
