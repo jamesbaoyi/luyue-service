@@ -11,5 +11,18 @@
 
     <artifactId>luyue-server-service-domain</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.baoyi.luyue</groupId>
+            <artifactId>luyue-server-entity-domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

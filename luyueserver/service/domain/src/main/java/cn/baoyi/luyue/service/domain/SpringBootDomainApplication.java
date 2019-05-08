@@ -1,8 +1,10 @@
 package cn.baoyi.luyue.service.domain;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * @Author: qijigui
@@ -12,6 +14,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringCloudApplication
 @EnableDiscoveryClient
+@EntityScan(basePackages = {"cn.baoyi.luyue.entity.domain"})
+@EnableTransactionManagement
 public class SpringBootDomainApplication {
 
     public static void main(String[] args) {

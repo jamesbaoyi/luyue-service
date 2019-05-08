@@ -11,8 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/luyueserver/service/luyue-server-service.iml" filepath="$PROJECT_DIR$/luyueserver/service/luyue-server-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/luyueserver/service/domain/luyue-server-service-domain.iml" filepath="$PROJECT_DIR$/luyueserver/service/domain/luyue-server-service-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/luyueserver/service/mangagement/luyue-server-service-management.iml" filepath="$PROJECT_DIR$/luyueserver/service/mangagement/luyue-server-service-management.iml" />
-      <module fileurl="file://$PROJECT_DIR$/luyueserver/service/domain/luyue.service.domain.iml" filepath="$PROJECT_DIR$/luyueserver/service/domain/luyue.service.domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/luyueserver/service/mangagement/luyue.service.mangagement.iml" filepath="$PROJECT_DIR$/luyueserver/service/mangagement/luyue.service.mangagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/luyueserver/luyueserver.iml" filepath="$PROJECT_DIR$/luyueserver/luyueserver.iml" />
     </modules>
   </component>
