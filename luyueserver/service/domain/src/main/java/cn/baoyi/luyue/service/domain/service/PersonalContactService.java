@@ -3,6 +3,7 @@ package cn.baoyi.luyue.service.domain.service;
 import cn.baoyi.luyue.entity.domain.PersonalContact;
 import cn.baoyi.luyue.service.domain.repository.PersonalContactRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
