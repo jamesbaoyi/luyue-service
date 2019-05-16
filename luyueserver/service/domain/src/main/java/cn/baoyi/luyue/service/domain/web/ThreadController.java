@@ -16,18 +16,26 @@ public class ThreadController {
 
     @ApiOperation("线程测试")
     @GetMapping("/printNumber")
-    public void printNumber() {
+    public void printNumber() throws InterruptedException {
 
 
         PrintClass printClass = new PrintClass();
         for (int i = 1; i <= 100; i++) {
             printClass.setTemp(i);
             if (i % 2 == 0) {
-                Thread thread1 = new java.lang.Thread(printClass);
+                Thread thread1 = new java.lang.Thread(printClass, "线程一");
                 thread1.start();
+                synchronized (thread1) {
+                    thread1.wait(2);
+                    thread1.notify();
+                }
             } else {
-                Thread thread2 = new java.lang.Thread(printClass);
+                Thread thread2 = new java.lang.Thread(printClass, "线程二");
                 thread2.start();
+                synchronized (thread2) {
+                    thread2.wait(2);
+                    thread2.notify();
+                }
             }
         }
 
@@ -42,7 +50,7 @@ public class ThreadController {
         }
 
         public void print() {
-            System.out.println(temp);
+            System.out.println(temp + Thread.currentThread().getName());
         }
 
         @Override

@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.DelayQueue;
+
 /**
  * @Author: qijigui
  * @CreateDate: 2019/5/7 9:58
@@ -25,7 +27,6 @@ public class TestController {
     protected void test() {
 
         personalService.addPersonal();
-
 
     }
 }
