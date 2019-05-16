@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5132dab4-6167-4cef-b203-b2f82fdc44a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50fbf84a54ba9298cec552125ecd4ae4e7bba1a9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50fbf84a54ba9298cec552125ecd4ae4e7bba1a9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/ThreadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/ThreadController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/luyueserver/target/" />
@@ -57,10 +54,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/ThreadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="473">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1854#1855#0" expanded="true" />
+                <element signature="e#1924#1925#0" expanded="true" />
+                <element signature="e#1972#1973#0" expanded="true" />
+                <element signature="e#2012#2013#0" expanded="true" />
+                <element signature="e#2043#2044#0" expanded="true" />
+                <element signature="e#2126#2127#0" expanded="true" />
+                <element signature="e#2173#2174#0" expanded="true" />
+                <element signature="e#2204#2205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="184" column="21" selection-start-line="184" selection-start-column="21" selection-end-line="184" selection-end-column="21" />
+              <folding>
+                <element signature="e#4725#4726#0" expanded="true" />
+                <element signature="e#4793#4794#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,6 +172,7 @@
       <find>referenceTime =</find>
       <find>next</find>
       <find>get</find>
+      <find>AtomicInteger</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -352,7 +371,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557972199781" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557977960876" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/spring_autowired_npe_example-working-configurable/spring-autowired-npe/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -385,7 +404,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootDomainApplication">
+  <component name="RunManager" selected="Application.ThreadController">
     <configuration name="Snowflake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.baoyi.luyue.common.utils.Snowflake" />
       <module name="luyue-server-common" />
@@ -412,12 +431,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootDiscoveryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.baoyi.luyue.discovery.SpringBootDiscoveryApplication" />
-      <module name="luyue-server-discovery" />
+    <configuration name="ThreadController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.baoyi.luyue.service.domain.web.ThreadController" />
+      <module name="luyue-server-service-domain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.baoyi.luyue.discovery.*" />
+          <option name="PATTERN" value="cn.baoyi.luyue.service.domain.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -467,11 +486,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadController" />
         <item itemvalue="Spring Boot.SpringBootDomainApplication" />
         <item itemvalue="Application.SnowflakeIdWorker" />
         <item itemvalue="Application.Snowflake" />
         <item itemvalue="Spring Boot.SpringBootManagementApplication" />
-        <item itemvalue="Application.SpringBootDiscoveryApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +516,7 @@
       <workItem from="1557452672973" duration="10129000" />
       <workItem from="1557710633821" duration="20578000" />
       <workItem from="1557883423805" duration="11467000" />
-      <workItem from="1557970656067" duration="2136000" />
+      <workItem from="1557970656067" duration="6733000" />
     </task>
     <task id="LOCAL-00001" summary="添加readme.">
       <created>1557113527043</created>
@@ -541,11 +560,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557743900378</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="线程实现 多线程 打印数据。">
+      <created>1557972947660</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557972947661</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112278000" />
+    <option name="totallyTimeSpent" value="116875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -569,7 +595,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.4110629" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.5672451" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -640,7 +666,8 @@
     <MESSAGE value="继承Oracle数据库连接。" />
     <MESSAGE value="增加事务测试。" />
     <MESSAGE value="增加优雅的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加优雅的代码" />
+    <MESSAGE value="线程实现 多线程 打印数据。" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程实现 多线程 打印数据。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,13 +748,6 @@ List&lt;String&gt; distributeList = Arrays.asList(distributes);</expression-stri
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/resources/config/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/mvnSpace/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.jar!/org/apache/tomcat/jni/Thread.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1071,12 +1091,31 @@ List&lt;String&gt; distributeList = Arrays.asList(distributes);</expression-stri
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="184" column="21" selection-start-line="184" selection-start-column="21" selection-end-line="184" selection-end-column="21" />
+          <folding>
+            <element signature="e#4725#4726#0" expanded="true" />
+            <element signature="e#4793#4794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/ThreadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="473">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+            <element signature="e#1924#1925#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2012#2013#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2126#2127#0" expanded="true" />
+            <element signature="e#2173#2174#0" expanded="true" />
+            <element signature="e#2204#2205#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -5,6 +5,12 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
+
 /**
  * @Author: qijigui
  * @CreateDate: 2019/5/10 11:21
@@ -40,6 +46,25 @@ public class ThreadController {
         }
 
 
+    }
+
+    /**
+     * 简单的futureTask示例
+     *
+     * @param args
+     * @throws ExecutionException
+     * @throws InterruptedException
+     */
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        AtomicInteger atomicInteger = new AtomicInteger(0);
+        FutureTask<Integer> futureTask = new FutureTask<>(new Callable<Integer>() {
+            @Override
+            public Integer call() {
+                return atomicInteger.incrementAndGet();
+            }
+        });
+        System.out.println(futureTask.get());
+        System.out.println("执行完毕");
     }
 
     private class PrintClass implements Runnable {
