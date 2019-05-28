@@ -56,13 +56,9 @@ public class ThreadController {
      * @throws InterruptedException
      */
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        AtomicInteger atomicInteger = new AtomicInteger(0);
-        FutureTask<Integer> futureTask = new FutureTask<>(new Callable<Integer>() {
-            @Override
-            public Integer call() {
-                return atomicInteger.incrementAndGet();
-            }
-        });
+        AtomicInteger atomicInteger = new AtomicInteger(2);
+        FutureTask<Integer> futureTask = new FutureTask<>(() -> atomicInteger.incrementAndGet());
+        new Thread(futureTask).start();
         System.out.println(futureTask.get());
         System.out.println("执行完毕");
     }
