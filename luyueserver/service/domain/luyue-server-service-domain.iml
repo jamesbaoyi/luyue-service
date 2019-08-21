@@ -22,6 +22,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.47" level="project" />
     <orderEntry type="module" module-name="luyue-server-entity-domain" />
+    <orderEntry type="module" module-name="luyue-server-common" />
     <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2.Final" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.18" level="project" />
     <orderEntry type="library" name="Maven: io.swagger:swagger-annotations:1.5.14" level="project" />

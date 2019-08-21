@@ -29,13 +29,6 @@ public class PersonalService {
         personal.setMobile("456123");
         personalRepository.save(personal);
 
-        try {
-            int i = 1 / 0;
-        } catch (Exception ex) {
-            throw ex;
-        }
-
-
         personalContactService.addPersonalContact();
 
     }

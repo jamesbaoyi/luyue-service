@@ -3,6 +3,9 @@ package cn.baoyi.luyue.service.domain.web;
 import cn.baoyi.luyue.service.domain.service.PersonalContactService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import sun.misc.BASE64Decoder;
+
+import java.util.Base64;
 
 /**
  * @Author: qijigui
@@ -17,6 +20,10 @@ public class AutoWiredController {
 
         PersonalContactService personalContactService = new PersonalContactService();
         personalContactService.addPersonalContact();
+
+    }
+
+    public static void main(String[] args) {
 
     }
 }

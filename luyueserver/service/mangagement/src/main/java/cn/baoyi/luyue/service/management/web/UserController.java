@@ -6,7 +6,10 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * @Author: qijigui
@@ -49,6 +52,28 @@ public class UserController {
     @ApiOperation("删除用户信息")
     private void deleteUserById(@RequestParam Integer userId) {
         userRepository.deleteById(userId);
+    }
+
+    public static void main(String[] args) {
+        List<Integer> numbers = new ArrayList<>();
+        List<Integer> numberTemp = new ArrayList<>();
+        numbers.add(1);
+        numbers.add(1);
+        numbers.add(1);
+        numbers.add(3);
+        numbers.add(3);
+        numbers.add(4);
+        numbers.add(4);
+        numbers.add(4);
+        for(int i =numbers.size()-1;i>0;i--)
+        {
+            if(numbers.get(i)==4)
+            {
+                numbers.remove(numbers.get(i));
+            }
+
+        }
+        System.out.println("所剩元素是:\t" + numbers);
     }
 
 
