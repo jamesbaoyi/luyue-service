@@ -8,6 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.DelayQueue;
 
 /**
@@ -35,10 +38,39 @@ public class TestController {
 
     public static void main(String[] args) {
 
-        RpcClientProxy proxy = new RpcClientProxy();
-        IHelloService helloService = proxy.clientProxy(IHelloService.class, "127.0.0.1", 12345);
-        String name = helloService.sayHello("张三");
-        System.out.println(name);
+//        RpcClientProxy proxy = new RpcClientProxy();
+//        IHelloService helloService = proxy.clientProxy(IHelloService.class, "127.0.0.1", 12345);
+//        String name = helloService.sayHello("张三");
+//        System.out.println(name);
+
+        String[] ocurrences = findOcurrences("alice is a good girl she is a good student", "a", "good");
+        System.out.println(ocurrences.length);
 
     }
+
+    public static String[] findOcurrences(String text, String first, String second) {
+
+        List<String> result =new ArrayList<>();
+        String spilt = first + " " + second;
+        String leftText;
+        leftText = text;
+        while (leftText.contains(spilt)) {
+            int index = leftText.indexOf(spilt);
+            String substring;
+            if (index == 0) {
+                substring = leftText.substring(spilt.length()).trim();
+            } else {
+                substring = leftText.substring(index + spilt.length()).trim();
+            }
+            if (substring.contains(" ")) {
+                result.add( substring.substring(0, substring.indexOf(" ")));
+            } else {
+                result.add( substring);
+            }
+            leftText = substring;
+        }
+        return result.toArray(new String[result.size()]);
+
+    }
+
 }
