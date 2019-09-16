@@ -5,7 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/RemoteInvocationHandler.java" line="25" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5132dab4-6167-4cef-b203-b2f82fdc44a2" name="Default Changelist" comment="线程实现 多线程 打印数据。">
+    <list default="true" id="5132dab4-6167-4cef-b203-b2f82fdc44a2" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/Model/RpcRequest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/IHelloService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/ProcessorHandler.java" afterDir="false" />
@@ -71,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/ForkJoinPoolController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="392">
+              <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -324,71 +324,6 @@
               <item name="luyue-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="luyueserver" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="luyue-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luyueserver" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luyue-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luyueserver" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luyue-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luyueserver" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luyue-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luyueserver" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luyue-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luyueserver" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luyue-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luyueserver" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luyue-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luyueserver" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luyue-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luyueserver" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -403,7 +338,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568598829480" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568598889498" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -568,7 +503,7 @@
       <workItem from="1568082895902" duration="3842000" />
       <workItem from="1568165900348" duration="1854000" />
       <workItem from="1568252289360" duration="7491000" />
-      <workItem from="1568596968398" duration="1652000" />
+      <workItem from="1568596968398" duration="1896000" />
     </task>
     <task id="LOCAL-00001" summary="添加readme.">
       <created>1557113527043</created>
@@ -633,11 +568,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566375822298</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="线程实现 多线程 打印数据。">
+      <created>1568598673300</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568598673300</updated>
+    </task>
+    <task id="LOCAL-00011" summary="线程实现 多线程 打印数据。">
+      <created>1568598872522</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1568598872522</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196755000" />
+    <option name="totallyTimeSpent" value="196999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -670,7 +619,7 @@
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49946696" weight="0.6062907" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.56507593" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.31453362" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.31453362" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.3286334" />
       <window_info anchor="bottom" id="SonarLint" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.4989339" weight="0.329718" />
@@ -1244,8 +1193,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/ForkJoinPoolController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        <state relative-caret-position="392">
+          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
