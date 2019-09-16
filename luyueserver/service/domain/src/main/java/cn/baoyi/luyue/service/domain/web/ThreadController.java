@@ -1,10 +1,13 @@
 package cn.baoyi.luyue.service.domain.web;
 
+import cn.baoyi.luyue.service.domain.service.RpcServer;
+import cn.baoyi.luyue.service.domain.service.serviceImpl.HelloServiceImpl;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.IOException;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
@@ -55,12 +58,15 @@ public class ThreadController {
      * @throws ExecutionException
      * @throws InterruptedException
      */
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
-        AtomicInteger atomicInteger = new AtomicInteger(2);
-        FutureTask<Integer> futureTask = new FutureTask<>(() -> atomicInteger.incrementAndGet());
-        new Thread(futureTask).start();
-        System.out.println(futureTask.get());
-        System.out.println("执行完毕");
+    public static void main(String[] args) throws ExecutionException, InterruptedException, IOException {
+//        AtomicInteger atomicInteger = new AtomicInteger(2);
+//        FutureTask<Integer> futureTask = new FutureTask<>(() -> atomicInteger.incrementAndGet());
+//        new Thread(futureTask).start();
+//        System.out.println(futureTask.get());
+//        System.out.println("执行完毕");
+
+        RpcServer rpcServer = new RpcServer();
+        rpcServer.publisher(new HelloServiceImpl(), 12345);
     }
 
     private class PrintClass implements Runnable {

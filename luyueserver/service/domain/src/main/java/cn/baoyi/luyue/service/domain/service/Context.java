@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 public class Context {
 
     public String getPersonalName(Integer personalId) throws Exception {
-        StrategyFactory strategyFactory = new StrategyFactory();
+        StrategyFactory strategyFactory = StrategyFactory.getInstance();
         Strategy strategy = strategyFactory.create(personalId);
         return strategy.strategy(personalId);
     }

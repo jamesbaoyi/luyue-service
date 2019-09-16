@@ -15,9 +15,18 @@ import java.util.Set;
 @Configuration
 public class StrategyFactory {
 
+    private static StrategyFactory strategyFactory = new StrategyFactory();
+
+    private StrategyFactory() {
+
+    }
+
 
     private static HashMap<Integer, String> sourceMap = new HashMap<>();
 
+    public static StrategyFactory getInstance() {
+        return strategyFactory;
+    }
 
     static {
 
