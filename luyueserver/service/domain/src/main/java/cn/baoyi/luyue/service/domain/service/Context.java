@@ -1,5 +1,6 @@
 package cn.baoyi.luyue.service.domain.service;
 
+import org.apache.commons.configuration.plist.XMLPropertyListConfiguration;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
 

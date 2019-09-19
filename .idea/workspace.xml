@@ -5,9 +5,11 @@
     <bookmark url="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/RemoteInvocationHandler.java" line="25" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5132dab4-6167-4cef-b203-b2f82fdc44a2" name="Default Changelist" comment="线程实现 多线程 打印数据。">
+    <list default="true" id="5132dab4-6167-4cef-b203-b2f82fdc44a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/Context.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luyueserver/service/mangagement/target/classes/cn/baoyi/luyue/service/management/SpringBootManagementApplication.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/luyueserver/target/" />
     <ignored path="$PROJECT_DIR$/luyueserver/entity/target/" />
@@ -42,12 +44,33 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luyueserver/service/luyue-server-service.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1680">
+              <caret line="70" column="71" selection-start-line="70" selection-start-column="71" selection-end-line="70" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="738">
+              <caret line="92" column="64" lean-forward="true" selection-start-line="92" selection-start-column="64" selection-end-line="92" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,7 +160,6 @@
         <option value="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/aspect/DataConvertAspect.java" />
         <option value="$PROJECT_DIR$/luyueserver/service/mangagement/src/main/java/cn/baoyi/luyue/service/management/web/UserController.java" />
         <option value="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/AutoWiredController.java" />
-        <option value="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/Context.java" />
         <option value="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/StrategyFactory.java" />
         <option value="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/Model/RpcRequest.java" />
         <option value="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/RpcClientProxy.java" />
@@ -150,6 +172,7 @@
         <option value="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/TcpTransport.java" />
         <option value="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/SemaphoreTest.java" />
         <option value="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/ForkJoinPoolController.java" />
+        <option value="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/Context.java" />
         <option value="$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/TestController.java" />
       </list>
     </option>
@@ -270,6 +293,12 @@
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="luyue-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luyueserver" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="mangagement" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -284,7 +313,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568627464770" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568879307487" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -296,16 +325,16 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\pangolin\luyue-server\luyueserver\service\domain\src\main\java\cn\baoyi\luyue\service\domain\web" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\pangolin\luyue-server\luyueserver\common\src\main\java\cn\baoyi\luyue\common\utils" />
+      <recent name="F:\pangolin\luyue-server\luyueserver\service\domain\src\main\java\cn\baoyi\luyue\service\domain\service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.baoyi.luyue.common.utils" />
       <recent name="cn.baoyi.luyue.service.management.config" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\pangolin\luyue-server\luyueserver\common\src\main\java\cn\baoyi\luyue\common\utils" />
-      <recent name="F:\pangolin\luyue-server\luyueserver\service\domain\src\main\java\cn\baoyi\luyue\service\domain\service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\pangolin\luyue-server\luyueserver\service\domain\src\main\java\cn\baoyi\luyue\service\domain\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -454,7 +483,9 @@
       <workItem from="1568252289360" duration="7491000" />
       <workItem from="1568596968398" duration="1938000" />
       <workItem from="1568599090299" duration="5875000" />
-      <workItem from="1568621801422" duration="6014000" />
+      <workItem from="1568621801422" duration="6059000" />
+      <workItem from="1568683379203" duration="5828000" />
+      <workItem from="1568878516189" duration="876000" />
     </task>
     <task id="LOCAL-00001" summary="添加readme.">
       <created>1557113527043</created>
@@ -554,11 +585,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568600752928</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="线程实现 多线程 打印数据。">
+      <created>1568628164331</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568628164332</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208930000" />
+    <option name="totallyTimeSpent" value="215679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,7 +611,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17270789" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -584,7 +622,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6507592" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.29718006" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" visible="true" weight="0.42407808" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.42407808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -609,7 +647,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17270789" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -619,7 +657,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6507592" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.6052061" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.29718006" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.42407808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -689,11 +727,49 @@
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/Context.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/TestController.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/TestController.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>ex</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ex.stackTrace[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ex.stackTrace.length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ex.stackTrace</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>leftText.indexOf(spilt)</expression-string>
         <language-id>JAVA</language-id>
@@ -719,36 +795,36 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
       <expression>
-        <expression-string>temp.indexOf(&quot; &quot;)</expression-string>
+        <expression-string>ex.stackTrace[0].declaringClass</expression-string>
         <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>temp.substring(temp.indexOf(&quot; &quot;))</expression-string>
+        <expression-string>ex.stackTrace[0]</expression-string>
         <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>strings[i].trim()</expression-string>
+        <expression-string>ex.stackTrace</expression-string>
         <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>strings[i]</expression-string>
+        <expression-string>ex.toString()</expression-string>
         <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ret</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/mvnSpace/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final-sources.jar!/javax/persistence/Converter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/DataConvert.java" />
     <entry file="jar://D:/mvnSpace/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.jar!/org/springframework/core/convert/converter/Converter.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -906,16 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1156,10 +1222,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/luyueserver/service/luyue-server-service.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="70" column="71" selection-start-line="70" selection-start-column="71" selection-end-line="70" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/service/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/luyueserver/service/domain/src/main/java/cn/baoyi/luyue/service/domain/web/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="738">
+          <caret line="92" column="64" lean-forward="true" selection-start-line="92" selection-start-column="64" selection-end-line="92" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
@@ -46,11 +48,19 @@ public class TestController {
         String[] ocurrences = findOcurrences("alice is a good girl she is a good student", "a", "good");
         System.out.println(ocurrences.length);
 
+        try {
+            String a = null;
+            a.substring(1);
+        } catch (Exception ex) {
+            System.out.println("错误如下：" + getExceptionAllinformation(ex));
+        }
+
+
     }
 
     public static String[] findOcurrences(String text, String first, String second) {
 
-        List<String> result =new ArrayList<>();
+        List<String> result = new ArrayList<>();
         String spilt = first + " " + second;
         String leftText;
         leftText = text;
@@ -63,14 +73,34 @@ public class TestController {
                 substring = leftText.substring(index + spilt.length()).trim();
             }
             if (substring.contains(" ")) {
-                result.add( substring.substring(0, substring.indexOf(" ")));
+                result.add(substring.substring(0, substring.indexOf(" ")));
             } else {
-                result.add( substring);
+                result.add(substring);
             }
             leftText = substring;
         }
         return result.toArray(new String[result.size()]);
 
+    }
+
+    /**
+     *  * 获取Exception详情
+     *  * @param ex
+     *  * @return
+     *  
+     */
+    static String getExceptionAllinformation(Exception ex) {
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        PrintStream pout = new PrintStream(out);
+        ex.printStackTrace(pout);
+        String ret = new String(out.toByteArray());
+        try {
+            pout.close();
+            out.close();
+        } catch (Exception e) {
+            System.out.println("流关闭异常：" + e);
+        }
+        return ret;
     }
 
 }
